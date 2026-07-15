@@ -1,0 +1,77 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# ========================
+# Jupyter Notebooks
+# ========================
+.ipynb_checkpoints/
+
+# ========================
+# Data Files (keep raw/processed folders but ignore large datasets)
+# ========================
+data/raw/*.csv
+data/raw/*.xlsx
+data/raw/*.xls
+data/raw/*.json
+data/processed/*.csv
+data/processed/*.xlsx
+data/processed/*.parquet
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# ========================
+# Power BI
+# ========================
+*.pbix
+*.pbit
+dashboard/*.pbix
+dashboard/*.pbit
+
+# ========================
+# Excel (temporary files)
+# ========================
+~$*.xlsx
+~$*.xls
+*.tmp
+
+# ========================
+# Environment & Secrets
+# ========================
+.env
+.env.local
+*.credentials
+config/secrets.*
+
+# ========================
+# IDE / Editor
+# ========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ========================
+# OS Files
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========================
+# Logs
+# ========================
+*.log
+logs/
